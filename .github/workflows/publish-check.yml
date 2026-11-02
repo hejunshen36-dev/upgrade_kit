@@ -1,0 +1,40 @@
+name: Pub release check
+
+# Validation only. Uploads remain an explicit local --publish operation.
+on:
+  workflow_dispatch:
+    inputs:
+      package:
+        description: Package to validate against already-published dependencies
+        required: true
+        type: choice
+        options:
+          - upgrade_kit_platform_interface
+          - upgrade_kit_android
+          - upgrade_kit_ios
+          - upgrade_kit_ohos
+          - upgrade_kit
+
+permissions:
+  contents: read
+
+jobs:
+  dry-run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.35.7'
+          channel: stable
+          cache: true
+      - name: Validate selected package without uploading
+        env:
+          PACKAGE_NAME: ${{ inputs.package }}
+        run: ./tool/publish.sh --dry-run --package "$PACKAGE_NAME"

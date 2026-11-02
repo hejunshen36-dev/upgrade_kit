@@ -1,0 +1,13 @@
+{
+  "modelVersion": "5.1.0",
+  "name": "upgrade_kit_example",
+  "version": "1.0.0",
+  "description": "Three-platform example for upgrade_kit.",
+  "main": "",
+  "author": "fangcloud",
+  "license": "Apache-2.0",
+  "dependencies": {},
+  "devDependencies": {
+    "@ohos/hypium": "1.0.6"
+  }
+}

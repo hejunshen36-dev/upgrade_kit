@@ -1,0 +1,37 @@
+name: upgrade_kit
+description: Configurable app store upgrades and host-controlled APK downloads, verification and installation for Android, iOS and HarmonyOS.
+version: 0.0.1
+repository: https://github.com/hejunshen36-dev/upgrade_kit
+homepage: https://github.com/hejunshen36-dev/upgrade_kit/tree/main/upgrade_kit
+issue_tracker: https://github.com/hejunshen36-dev/upgrade_kit/issues
+
+environment:
+  sdk: ^3.9.2
+  flutter: ">=3.35.7"
+
+dependencies:
+  crypto: ^3.0.3
+  encrypt: ^5.0.3
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  upgrade_kit_android: ^0.0.1
+  upgrade_kit_ios: ^0.0.1
+  upgrade_kit_ohos: ^0.0.1
+  upgrade_kit_platform_interface: ^0.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  plugin_platform_interface: ^2.1.8
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        default_package: upgrade_kit_android
+      ios:
+        default_package: upgrade_kit_ios
+      ohos:
+        default_package: upgrade_kit_ohos

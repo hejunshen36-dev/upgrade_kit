@@ -1,0 +1,4 @@
+# Repository development only; excluded from published packages.
+dependency_overrides:
+  upgrade_kit_platform_interface:
+    path: ../upgrade_kit_platform_interface

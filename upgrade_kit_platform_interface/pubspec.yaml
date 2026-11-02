@@ -1,0 +1,20 @@
+name: upgrade_kit_platform_interface
+description: Shared platform contracts and typed native results for the upgrade_kit federated Flutter app upgrade plugin.
+version: 0.0.1
+repository: https://github.com/hejunshen36-dev/upgrade_kit
+homepage: https://github.com/hejunshen36-dev/upgrade_kit/tree/main/upgrade_kit_platform_interface
+issue_tracker: https://github.com/hejunshen36-dev/upgrade_kit/issues
+
+environment:
+  sdk: ^3.9.2
+  flutter: ">=3.35.7"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.1.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0

@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "upgrade_kit_ohos",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ]
+  }
+}

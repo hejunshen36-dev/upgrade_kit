@@ -1,0 +1,10 @@
+# Repository development only; excluded from published packages.
+dependency_overrides:
+  upgrade_kit_platform_interface:
+    path: ../upgrade_kit_platform_interface
+  upgrade_kit_android:
+    path: ../upgrade_kit_android
+  upgrade_kit_ios:
+    path: ../upgrade_kit_ios
+  upgrade_kit_ohos:
+    path: ../upgrade_kit_ohos
