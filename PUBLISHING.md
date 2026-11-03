@@ -23,7 +23,7 @@ python3 -m unittest discover -s tool -p 'test_*.py'
 
 ## 发布顺序
 
-当前五个包的初始版本均为 `0.0.1`。发布前分别更新版本、CHANGELOG 和内部依赖约束；同时保持 iOS podspec、OHOS oh-package 版本一致。已发布版本不能覆盖。
+当前五个包的版本均为 `1.0.1`。发布前分别更新版本、CHANGELOG 和内部依赖约束；同时保持 iOS podspec、OHOS oh-package 版本一致。已发布版本不能覆盖。
 
 依次处理以下包，接口包先发布，主包最后发布；三个平台包之间没有依赖，可以任意排序：
 
@@ -63,7 +63,7 @@ example 对主包始终保留 `path: ../`，归档后该路径仍指向同包根
 
 ```yaml
 dependencies:
-  upgrade_kit: ^0.0.1
+  upgrade_kit: ^1.0.1
 ```
 
 首次发布前也可以完整克隆本仓库，运行自带 example。如果宿主使用 Git 主包且需要整套本地源码实现，必须在**宿主根 pubspec** 中显式覆盖四个传递包，不能只引用主包后期待其开发覆盖被继承：

@@ -21,7 +21,7 @@
 
 ```yaml
 dependencies:
-  upgrade_kit: ^0.0.1
+  upgrade_kit: ^1.0.1
 ```
 
 ```dart

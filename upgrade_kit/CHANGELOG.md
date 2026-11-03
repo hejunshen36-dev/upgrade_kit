@@ -1,3 +1,9 @@
+## 1.0.1
+
+* Align all five federated packages and internal dependencies at version 1.0.1.
+* Remove machine-specific SDK paths and local HarmonyOS build instructions from the example.
+* Keep development-only Android QA tools out of the public example and repository.
+
 ## 0.0.1
 
 * Configure pub.dev metadata, hosted federated dependencies and local development overrides.

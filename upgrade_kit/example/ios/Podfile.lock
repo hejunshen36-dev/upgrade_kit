@@ -1,6 +1,6 @@
 PODS:
   - Flutter (1.0.0)
-  - upgrade_kit_ios (0.0.1):
+  - upgrade_kit_ios (1.0.1):
     - Flutter
 
 DEPENDENCIES:
@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
-  upgrade_kit_ios: 146b20a647b39e790747e8f16461d2bd74f419d1
+  upgrade_kit_ios: 6cc67257f00be3c7d87fdbdc88c4f8e9e7a1e49f
 
 PODFILE CHECKSUM: 3c63482e143d1b91d2d2560aee9fb04ecc74ac7e
 

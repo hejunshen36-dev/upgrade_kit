@@ -9,6 +9,7 @@
 .history
 .svn/
 qa/
+/upgrade_kit/example/tool/
 docs/
 .idea/
 

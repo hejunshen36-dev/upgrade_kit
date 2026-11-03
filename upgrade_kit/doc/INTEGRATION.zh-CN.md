@@ -17,7 +17,7 @@
 
 宿主运行时仅需依赖主包，不直接依赖三个平台实现包：
 
-从 pub.dev 接入时使用 `upgrade_kit: ^0.0.1`。下面的本地 path 用法需要在宿主根配置四个传递包的本地覆盖；仓库内的 example 已提供对应覆盖。Git/path 完整写法见仓库根的 [PUBLISHING.md](https://github.com/hejunshen36-dev/upgrade_kit/blob/main/PUBLISHING.md)。
+从 pub.dev 接入时使用 `upgrade_kit: ^1.0.1`。下面的本地 path 用法需要在宿主根配置四个传递包的本地覆盖；仓库内的 example 已提供对应覆盖。Git/path 完整写法见仓库根的 [PUBLISHING.md](https://github.com/hejunshen36-dev/upgrade_kit/blob/main/PUBLISHING.md)。
 
 ```yaml
 dependencies:

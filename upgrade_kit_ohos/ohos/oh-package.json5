@@ -1,6 +1,6 @@
 {
   "name": "upgrade_kit_ohos",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "HarmonyOS implementation of upgrade_kit.",
   "main": "index.ets",
   "author": "fangcloud",

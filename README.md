@@ -29,7 +29,7 @@ Android 厂商查询、宿主版本请求和 APK 下载需要 `android.permissio
 
 ```yaml
 dependencies:
-  upgrade_kit: ^0.0.1
+  upgrade_kit: ^1.0.1
 ```
 
 使用本地源码或 Git 接入时，宿主还需在根 pubspec 中覆盖四个传递包的来源。完整写法见 [Git/path 接入](PUBLISHING.md#pubdev-与-git-接入)；仓库中的 example 已配置本地覆盖。

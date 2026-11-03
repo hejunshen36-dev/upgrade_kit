@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'upgrade_kit_ios'
-  s.version          = '0.0.1'
+  s.version          = '1.0.1'
   s.summary          = 'iOS implementation of upgrade_kit.'
   s.description      = <<-DESC
 iOS implementation of upgrade_kit.

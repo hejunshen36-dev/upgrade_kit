@@ -1,6 +1,6 @@
 name: upgrade_kit_android
 description: Android implementation of upgrade_kit with APK installer permissions, FileProvider access and vendor app store routing.
-version: 0.0.1
+version: 1.0.1
 repository: https://github.com/hejunshen36-dev/upgrade_kit
 homepage: https://github.com/hejunshen36-dev/upgrade_kit/tree/main/upgrade_kit_android
 issue_tracker: https://github.com/hejunshen36-dev/upgrade_kit/issues
@@ -12,7 +12,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  upgrade_kit_platform_interface: ^0.0.1
+  upgrade_kit_platform_interface: ^1.0.1
 
 dev_dependencies:
   flutter_test:
